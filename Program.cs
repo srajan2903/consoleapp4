@@ -41,7 +41,8 @@ namespace ConsoleApp4
             //Console.WriteLine("Salary is \t" + salary + "\n Bonus is \t" + bonus);
             calc.Add(10, 20, 30);
             calc.Add(10, 20, 30, 40, 50, 60);
-
+            calc.Add(10, 20, 30, 40, 50, 60,80);
+            Console.WriteLine("Value of myNum after calling incremennt in main ");
             Console.ReadKey();
         }
     }
